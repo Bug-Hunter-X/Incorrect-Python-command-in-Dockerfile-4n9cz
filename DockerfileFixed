@@ -1,0 +1,4 @@
+FROM ubuntu:latest
+RUN apt-get update && apt-get install -y python3
+# Correct way to check Python version, using python3 --version
+CMD ["python3", "--version"]
