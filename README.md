@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: using an incorrect command to check the Python version. The initial Dockerfile uses `python3 -V`, which may not be available in the base image, leading to a runtime error. The fixed Dockerfile demonstrates the correct usage.
